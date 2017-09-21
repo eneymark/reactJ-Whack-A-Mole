@@ -1,0 +1,71 @@
+.Whack .map {
+    background-image: url("/images/world-map.jpg");
+    background-size: contain;
+    min-height:876px;
+    height: 876px;
+}
+.Whack ul li .name {
+    background-color: antiquewhite;
+}
+.Whack ul li {
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    width: 75px;
+    height: 85px;
+    border: 3px dashed orangered;
+    font-size: 16px;
+    color: orangered;
+    font-weight: bold;
+}
+.Whack ul li .mole {
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    overflow: hidden;
+}
+.Whack ul li.hole_0 { left: 30px; top: 373px }
+.Whack ul li.hole_1 { left: 1176px; top: 207px; }
+.Whack ul li.hole_2 { left: 505px; top: 547px; }
+.Whack ul li.hole_3 { left: 930px; top: 322px; font-size: 15px; letter-spacing: -1px;}
+.Whack ul li.hole_4 { left: 781px; top: 345px;}
+.Whack ul li.hole_5 { left: 1068px; top: 352px; }
+.Whack ul li.hole_6 { left: 618px; top: 210px; }
+.Whack ul li.hole_0 .mole img { width: 97px; margin-left: -26px; }
+.Whack ul li.hole_1 .mole img { width: 111px; margin-left: -28px;}
+.Whack ul li.hole_2 .mole img { width: 105px; margin-left: -12px; margin-top: 13px;}
+.Whack ul li.hole_3 .mole img { width: 96px; margin-left: -21px; }
+.Whack ul li.hole_4 .mole img { width: 114px; margin-left: -44px;}
+.Whack ul li.hole_5 .mole img { width: 111px; margin-left: 1px; }
+.Whack ul li.hole_6 .mole img { width: 111px; margin-left: -18px; }
+.Whack .whacked {
+    position: absolute;
+    left: 400px;
+    top:30px;
+    font-size: 56px;
+    font-weight: bold;
+    color: chartreuse;
+}
+.Whack .controls button {
+    width:75px;
+}
+.Whack .score, .Whack .controls button {
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: x-large;
+    color: crimson;
+}
+.Whack .game {
+    font-size: 28px;
+    color: forestgreen;
+    width:190px;
+    display: inline-block;
+}
+.Whack .gameStats {
+    text-align: center;
+}
+.Whack .gameStats span.content {
+    background-color: antiquewhite;
+    padding: 11px;
+}
+
